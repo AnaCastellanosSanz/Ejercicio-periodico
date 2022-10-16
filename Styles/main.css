@@ -1,0 +1,338 @@
+
+*{
+    font-family: sans-serif;
+}
+
+body{
+    margin-top: 5%;
+}
+
+
+.section__portada{
+    display: flex;
+    width: 100%;
+    
+}
+
+.section_div{
+    display: block;
+}
+
+.portada__img{
+    width: 50%;
+    height: 40%;
+    margin-right: 2%;
+}
+
+h1{
+    font-size: 15px;
+    
+
+}
+
+.section__portada p{
+    font-size: 10px;
+
+
+}
+
+.section__form ul{
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+    font-size: 8px;
+    margin-bottom: 3%;
+
+}
+
+.div1{
+    height: 1px;
+    background-color:#E7DDDB;
+    margin-bottom: 3%;
+}
+
+
+.noticias{
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+.noticias__article{
+    display: flex;
+    margin-bottom: 5%;
+}
+
+
+.noticias__article img{
+    margin-right: 2%;
+    width: 40%;
+    height: 30%;
+}
+.noticias__article iframe{
+    margin-right: 2%;
+    width: 120px;
+    height: 65px;
+    
+}
+
+.noticias__article h3{
+    font-size: 8px;
+    margin-left: 2%;
+}
+
+.noticias__article p{
+    display: none;
+}
+
+
+.noticias4{
+    display: flex;
+}
+
+
+.noticias2{
+    display: flex;
+}
+
+.noticias2__article{
+
+    margin-right: 14px;
+}
+
+
+.noticias2 img{
+    width: 190px;
+    
+}
+
+.noticias2 h3{
+    font-size: 8px;
+    font-weight: bold;
+    margin-right: 5%;
+}
+ 
+.noticias3{
+    display: flex;
+
+}
+
+.noticias3 img{
+    display: none;
+}
+
+.noticias3 h3{
+    font-size: 8px;
+    margin-left: 10px;
+}
+
+.noticias3__article{
+    margin-right: 20px;
+}
+
+.noticias3__article2{
+  
+   border-left: 1px solid #E7DDDB;
+   margin-right: 20px;
+}
+
+.h2{
+    font-size: 15px;
+}
+
+.lastsection article{
+    margin-right: 14px;
+}
+
+.noticias4 img{
+    width: 190px;
+}
+
+.noticias4 h3{
+    font-size: 10px;
+}
+
+
+
+.foto{
+    display: none;
+}
+
+
+@media screen and (min-width: 780px){
+
+    .section1{
+        width: 77%;
+
+    }
+    
+    h1{
+        font-size: 20px;
+    }
+
+    .section__portada p{
+        font-size: 10px;
+    }
+    
+    
+    .section__form ul{
+        display: block;
+        list-style: none;
+        justify-content: center;
+        list-style-type: unset;
+        font-size: 14px;
+}
+
+    .div1{
+        display: none;
+    }
+
+
+
+
+    
+
+
+    .noticias__article{
+        display: inline;
+        margin-bottom: 5px;
+        width: 60%;
+    }
+
+    .noticias{
+        display: flex;
+    }
+
+    .noticias__article img{
+        width: 230px;
+        height: 150px;
+         margin-right: 5px;
+         margin-top: 10px;
+
+    }
+
+
+    .noticias__article iframe{
+        width: 230px;
+        height: 150px;
+         margin-right: 5px;
+         margin-top: 10px;
+    }
+
+
+    .noticias__article h3{
+        font-size: 13px;
+    }
+
+    .noticias__article p{
+        display: block;
+        font-size: 10px;
+    }
+
+    .noticias {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    
+
+    }
+
+
+
+
+
+    .section3{
+        display: flex;
+        margin-bottom: 5%;
+    }
+
+    .noticias2__article{
+        width: 200px;
+    }
+
+    .noticias2__article h3{
+        font-size: 13px;
+    }
+
+    .noticias2__article img{
+        width: 200px;
+    }
+
+    .noticias2{
+        gap: 20px;
+    }
+
+    .noticias3__article{
+        margin-left: 14px;
+        width: 200px;
+    }
+
+    .noticias3__article img{
+        display: block;
+        width: 200px;
+    }
+
+
+    .noticias3__article h3{
+       font-size: 13px;
+    }
+
+
+    .noticias3__article2{
+        width: 200px;
+        margin-left: 14px;
+        border: 0ch;
+    }
+
+    .noticias3__article2 img{
+        display: block;
+        width: 200px;
+    }
+
+    .noticias3__article2 h3{
+        font-size: 13px;
+    }
+
+
+    .h2{
+        font-size: 17px;
+    }
+
+
+
+
+
+
+
+    /* No entiendo por qué no se me aplica el margin-right*/
+
+    .lastsection__article{
+        width: 200px;
+        margin-left: 14px;
+     
+    }
+
+    .lastsection__article img{
+        width: 200px;
+     
+    }
+
+    .lastsection__article h3{
+        font-size: 13px;
+    }
+
+    .foto{
+        display: block;
+        width: 200px;
+        margin-left: 14px;
+        
+    }
+
+    .foto img{
+        width: 200px;
+    }
+
+    .foto h3{
+        font-size: 13px;
+    }
+
+
